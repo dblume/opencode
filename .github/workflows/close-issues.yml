@@ -2,7 +2,7 @@ name: close-issues
 
 on:
   schedule:
-    - cron: "0 2 * * *" # Daily at 2:00 AM
+    - cron: "0 0 1 1 *"   # DXB DO NOT PR ME once a year
   workflow_dispatch:
 
 jobs:
